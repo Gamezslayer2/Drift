@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drift Culture Fashion Store</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing:border-box;
+      font-family: arial;
+    }
+    /*HERO SECTION*/
+    .hero {
+        height: 100vh;
+        background-image: 
+        url(https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;   
+        text-align: center;
+
+    }
+    .hero h1 {
+        font-size: clamp(2rem, 6vw, 50px);
+    }
+    .hero p {
+        font-size: clamp(1rem, 3vw, 20px);
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 16px;
+        padding: 0 15px;
+    }
+    .btn{
+        padding: 12px 25px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    /*SECTIONS*/
+    .section {
+        width:100%;
+        padding: 0;
+        text-align: center;
+    }
+    .grid {
+        display: flex;
+        gap: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 100%;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: white;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: 0.3s ease;
+    }
+    .card img {
+        width: 100%;
+        display:block;
+        object-fit: cover;
+    }
+    .card p {
+        padding: 10px;
+    }                
+  </style>
+</head>
+<body>
+
+  <!--HERO-->
+  <div class="hero">
+    <h1>Welcome to Drift Culture Fashion Store</h1>
+    <p>Your One-Stop Destination for Style and Elegance!</p>
+    <a href="services.html" class="btn">Explore Our Services</a>
+    </div>
+    <!--SECTION-->
+    <div class="section">
+        <h2>Discover Our Latest Collection</h2>
+        <br>
+        <p>Elegant Evening Gown</p>
+        <br>
+        <div class="grid">
+            <div class="card">
+                <img src=https://images.unsplash.com/photo-1764998112464-f293be747d84?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fashion Item" class="card">
+            </div>
+            <br>
+            <p>Chic Casual Wear</p>
+            <br>
+            <div class="card">
+                <img src=https://plus.unsplash.com/premium_photo-1705174232014-e9a5ddf8638e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fashion Item" class="card">
+    </div>
+    <div class="card">
+        <p>Trendy Street Style</p>
+        <br>
+        <img src=https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="Fashion Item" class="card">
+    </div>
+    <div class="card">
+        <p>Elegant Accessories</p>
+        <br>
+        <img src=https://images.unsplash.com/3/www.madebyvadim.com.jpg?q=80&w=1182&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="Fashion Item" class="card">
+    </div>
+    <div class="card">
+        <p>Stylish Footwear</p>
+        <br>
+        <img src=https://images.unsplash.com/photo-1563357732-cd38bbef7e81?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="Fashion Item" class="card">
+    </div>
+    </div>
+    </div>
+    <footer>
+        <p align="center">© 2024 Drift Culture Fashion Store. All rights reserved.</p>
+        <p>Developed by [Nephil Ndung'u].</p>
+    </footer>
+</body>
+<!--HERO-->
+</html>
